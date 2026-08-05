@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delete My Data - Mowa</title>
+  <style>
+    :root {
+      --bg: #0e0e12;
+      --card: #16161b;
+      --text: #f0ede4;
+      --muted: #9a978c;
+      --accent: #ef9f27;
+      --border: rgba(255,255,255,0.10);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #16161b 0%, #0e0e12 100%);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+    .card {
+      background: rgba(22, 22, 27, 0.92);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 18px 50px rgba(0,0,0,0.35);
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+      line-height: 1.2;
+      font-family: Georgia, serif;
+      font-weight: 400;
+    }
+    h2 {
+      margin-top: 28px;
+      margin-bottom: 10px;
+      font-size: 1.15rem;
+    }
+    p { margin: 0 0 12px; }
+    ul, ol {
+      margin: 10px 0 0 20px;
+      padding: 0;
+    }
+    li { margin-bottom: 8px; }
+    .muted { color: var(--muted); }
+    .pill {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(239, 159, 39, 0.12);
+      color: var(--accent);
+      border: 1px solid rgba(239, 159, 39, 0.22);
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+    .notice {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px 18px;
+      margin-top: 14px;
+    }
+    .footer {
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    a { color: #f5c876; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <span class="pill">Data Deletion Request</span>
+      <h1>Delete your Mowa data</h1>
+      <p class="muted">
+        This page explains how users can request deletion of their account and associated data
+        from Mowa.
+      </p>
+      <h2>How to delete your data in the app</h2>
+      <div class="notice">
+        <ol>
+          <li>Open the Mowa app.</li>
+          <li>Go to <strong>Profile</strong>.</li>
+          <li>Tap <strong>Delete My Account</strong>.</li>
+          <li>Confirm the deletion request.</li>
+        </ol>
+      </div>
+      <h2>How to request deletion outside the app</h2>
+      <p>
+        You can also contact the developer directly at
+        <a href="mailto:intricatelabs.dev@gmail.com">intricatelabs.dev@gmail.com</a>
+        and request that your account and data be deleted. Please send this request from the
+        email address associated with your Mowa account so we can verify the request.
+      </p>
+      <h2>What gets deleted</h2>
+      <ul>
+        <li>Your account and authentication credentials</li>
+        <li>Onboarding responses and profile information</li>
+        <li>Task and weekly plan history</li>
+        <li>Chat conversation history</li>
+        <li>Push notification token</li>
+      </ul>
+      <h2>What may be retained</h2>
+      <ul>
+        <li>Records required for legal, security, or abuse-prevention purposes</li>
+        <li>Log data already stored in backup systems for a limited period, which is purged on its normal retention schedule</li>
+      </ul>
+      <h2>Processing time</h2>
+      <p>
+        Deletion requests are processed as soon as possible, typically within 30 days. Some
+        records may take a short additional time to fully remove from backup systems.
+      </p>
+      <h2>Contact</h2>
+      <p>
+        For deletion-related questions, contact:
+        <a href="mailto:intricatelabs.dev@gmail.com">intricatelabs.dev@gmail.com</a>
+      </p>
+      <div class="footer">
+        <p>Developer: IntricateLabs</p>
+        <p><a href="../index.html">Go Back</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

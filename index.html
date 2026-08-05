@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IntricateLabs</title>
+  <style>
+    :root {
+      --bg: #0e0e12;
+      --card: #16161b;
+      --text: #f0ede4;
+      --muted: #9a978c;
+      --accent: #ef9f27;
+      --border: rgba(255,255,255,0.10);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #16161b 0%, #0e0e12 100%);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 72px 20px 88px;
+    }
+    .kicker {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(239, 159, 39, 0.12);
+      color: var(--accent);
+      border: 1px solid rgba(239, 159, 39, 0.22);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 20px 0 4px;
+      font-size: 2.6rem;
+      line-height: 1.15;
+      font-family: Georgia, serif;
+      font-weight: 400;
+    }
+    .tagline {
+      margin: 0 0 56px;
+      font-size: 1.15rem;
+      color: var(--muted);
+      max-width: 560px;
+    }
+    .card {
+      background: rgba(22, 22, 27, 0.92);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 18px 50px rgba(0,0,0,0.35);
+    }
+    .card h2 {
+      margin: 0 0 16px;
+      font-size: 1.3rem;
+      font-family: Georgia, serif;
+      font-weight: 400;
+      color: var(--accent);
+    }
+    .card p {
+      margin: 0 0 14px;
+      color: var(--text);
+    }
+    .card p:last-child { margin-bottom: 0; }
+    .muted { color: var(--muted); }
+    .product-name {
+      display: inline-block;
+      font-family: Georgia, serif;
+      font-style: italic;
+      color: var(--accent);
+    }
+    .stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 20px;
+    }
+    .stack span {
+      font-size: 0.85rem;
+      color: var(--muted);
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 5px 10px;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 4px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .footer p { margin: 4px 0; }
+    .quote {
+      font-family: Georgia, serif;
+      font-style: italic;
+      font-size: 1.05rem;
+      color: var(--text);
+      border-left: 2px solid rgba(239, 159, 39, 0.35);
+      padding-left: 18px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <span class="kicker">IntricateLabs</span>
+    <h1>Building for people trying to stay on track.</h1>
+    <p class="tagline">A solo development studio. First product: Mowa, an AI career companion for staying focused when everything is possible.</p>
+
+    <div class="card">
+      <h2>What we build</h2>
+      <p><span class="product-name">Mowa</span> is a companion for staying on track, when everything is possible and focus is the hardest part. It holds both your context and your direction, your goals, your patterns, what you said you'd do, and supports you not just when you ask, but when it matters most: when you're stuck, when you've drifted, when the thing you meant to do quietly slips your mind.</p>
+      <p class="muted">Built for students juggling school and a side hustle, early-career professionals with real potential who struggle to keep showing up daily, and job seekers trying to stay consistent through a long, uncertain search.</p>
+    </div>
+
+    <div class="card">
+      <h2>About the founder</h2>
+      <p>I'm a Computer Science student, self-taught developer, and musician. Mowa started as the thing I needed for myself, something to keep me on track when my world moved faster than I could manage alone. I've since seen a pattern in the people around me: real potential, held back not by ability, but by the daily discipline of consistent action.</p>
+      <p class="quote">Incredible potential, held back by the same thing every time, the ability to keep trying.</p>
+      <div class="stack">
+        <span>Kotlin</span>
+        <span>Spring Boot</span>
+        <span>Jetpack Compose</span>
+        <span>Multi-provider AI failover</span>
+        <span>Solo build — backend, Android, and product design</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Links</h2>
+      <div class="links">
+        <a href="./mowa/privacy-policy.html">Privacy Policy</a>
+        <a href="./mowa/delete-data.html">Delete Data</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>IntricateLabs</p>
+      <p><a href="mailto:intricatelabs.dev@gmail.com">intricatelabs.dev@gmail.com</a></p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://intricatelabs.site/sitemap.xml
